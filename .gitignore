@@ -1,0 +1,12 @@
+# Django files to ignore
+*.pyc
+__pycache__/
+db.sqlite3  # If you're using SQLite, ignore the database file
+/media/
+/staticfiles/
+
+# Environment files
+.env
+
+# Django Secret Key (if stored in a separate file)
+secret_key.txt
